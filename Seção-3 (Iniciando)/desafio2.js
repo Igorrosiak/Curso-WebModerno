@@ -12,13 +12,16 @@ console.log(a);
 console.log(b);
 
 /* CORRETO */
-let a2 = 7;
-let b2 = 94;
+a = 7;
+b = 94;
 
 let temp = a2;
 
-a2 = b2;
-b2 = temp;
+a = b;
+b = temp;
 
 console.log(a);
 console.log(b);
+
+/* MAIS MODERNO */
+[a, b] = [b,a]
