@@ -24,4 +24,4 @@ console.log(a);
 console.log(b);
 
 /* MAIS MODERNO */
-[a, b] = [b,a]
+[a, b] = [b, a]
